@@ -63,17 +63,17 @@ The goal of this project is to find the best machine learning model to predict i
 
 * Correlation heatmap
 <div align="center">
-<img src="https://github.com/vivianw969/bank_da/blob/main/images/cor1016.png" width="400" height="300">
+<img src="https://github.com/vivianw969/bank_marketing_da/blob/main/images/cor1016.png" width="400" height="300">
 </div>
 
 * Boxplot of clients’ age by jobs who subscribed to the term deposit
 <div align="center">
-<img src="https://github.com/vivianw969/bank_da/blob/main/images/box1016.png" width="700" height="300">
+<img src="https://github.com/vivianw969/bank_marketing_da/blob/main/images/box1016.png" width="700" height="300">
 </div>
 
 * Scatter plot and curves
 <div align="center">
-<img src="https://github.com/vivianw969/bank_da/blob/main/images/scatter1016.png" width="500" height="400">
+<img src="https://github.com/vivianw969/bank_marketing_da/blob/main/images/scatter1016.png" width="500" height="400">
 </div>
 
 ### Data splitting
@@ -127,12 +127,12 @@ model_gb.fit(X_train, y_train)
 ### Accuracy of models
 * Training: KNN is the best model, Perceptron is the worst.
 <div align="center">
-<img src="https://github.com/vivianw969/bank_da/blob/main/images/train1016.png" width="400" height="350">
+<img src="https://github.com/vivianw969/bank_marketing_da/blob/main/images/train1016.png" width="400" height="350">
 </div>
 
 * Testing: Gradient Boosting is the best model, Perceptron is again the worst.
 <div align="center">
-<img src="https://github.com/vivianw969/bank_da/blob/main/images/test1016.png" width="400" height="350">
+<img src="https://github.com/vivianw969/bank_marketing_da/blob/main/images/test1016.png" width="400" height="350">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -140,13 +140,13 @@ model_gb.fit(X_train, y_train)
 ### Feature Selection
 * Mutual Information Gain
 <div align="center">
-<img src="https://github.com/vivianw969/bank_da/blob/main/images/rf1016.png" width="500" height="500">
+<img src="https://github.com/vivianw969/bank_marketing_da/blob/main/images/rf1016.png" width="500" height="500">
 </div>
 
 
 * Features Importance with Random Forest
 <div align="center">
-<img src="https://github.com/vivianw969/bank_da/blob/main/images/drf1016.png" width="500" height="500">
+<img src="https://github.com/vivianw969/bank_marketing_da/blob/main/images/drf1016.png" width="500" height="500">
 </div>
 
 Both algorithms suggest to us that the “duration” feature is very important for modeling a customer’s decision of subscribing to a term account. 
@@ -158,7 +158,7 @@ Both algorithms suggest to us that the “duration” feature is very important 
 
 Logistic regression with random forest feature selection has the best prediction.
 <div align="center">
-<img src="https://github.com/vivianw969/bank_da/blob/main/images/matirx1016.png" width="800" height="500">
+<img src="https://github.com/vivianw969/bank_marketing_da/blob/main/images/matirx1016.png" width="800" height="500">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -189,4 +189,4 @@ Vivian Wang - ywang521@umd.edu
 [seaborn-url]: https://seaborn.pydata.org/
 [seaborn.js]: https://seaborn.pydata.org/_static/logo-wide-lightbg.svg
 [numpy-url]: https://numpy.org/
-[heatmap.js]: https://github.com/vivianw969/bank_da/blob/main/images/cor1016.png
+[heatmap.js]: https://github.com/vivianw969/bank_marketing_da/blob/main/images/cor1016.png
